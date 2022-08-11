@@ -177,6 +177,7 @@
 .footer {
   display: grid;
   grid-template-columns: auto auto;
+  border-top: solid 4px rgba(128, 128, 128, 0.368);
 }
 
 .term-of-use {
@@ -215,4 +216,104 @@
   height: 30px;
   margin-right: 50px;
   margin-left: 50px;
+}
+
+.recepies-text {
+  background-color: #643A71;
+  padding: 30px;
+  color: white;
+}
+
+.recepies-text h1 {
+  text-align: center;
+  font-family: monospace;
+  font-size: 40px;
+}
+
+.recepies-text p {
+  width: 70%;
+  margin-left: 15%;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.recepies-loop {
+  width: 100%;
+}
+
+.recepies-loop-div ul {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  list-style-type: none;
+  margin-top: 10px;
+  width: 95%;
+  margin-left: 85px;
+}
+
+.recepies-loop-div li {
+  padding: 20px;
+}
+
+.recepies-loop img {
+  width: 300px;
+  height: 200px;
+}
+
+.recepies-loop-div h1 {
+  width: 250px;
+  height: 70px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  color: #2e0e49;
+}
+
+.one-recipe {
+  border: solid 5px#cca8e9;
+  width: 80%;
+  padding: 20px;
+}
+
+.only-one-recepie {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.recepie-image-title {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 1rem;
+  padding: 20px;
+}
+
+.recepie-image-title h1 {
+  text-align: center;
+}
+
+.recepie-image-title img {
+  width: 100%;
+  border-radius: 10% 40%/50% 20%;
+}
+
+.text-recepie {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  width: 70%;
+  padding: 50px;
+  height: 60%;
+  margin-top: 16%;
+}
+
+.text-recepie h3 {
+  font-size: 33px;
+}
+
+.text-recepie h4 {
+  font-size: 23px
+}
+
+.text-recepie p {
+  font-size: 18px;
 }
