@@ -1,0 +1,218 @@
+.header h1 {
+  text-align: center;
+  padding: 20px;
+  font-family: fantasy;
+  background-color: #cca8e9;
+  color: rgb(92, 28, 152);
+}
+
+.header h1:hover {
+  color: rgb(92, 28, 152);
+  font-weight: bolder;
+}
+
+.header ul {
+  width: 100%;
+  list-style-type: none;
+  background-color: #cca8e9;
+  color: rgb(92, 28, 152);
+}
+
+.header-ul-li-div {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  width: 70%;
+  margin-left: 25%;
+  padding: 20px;
+  font-size: 20px;
+}
+
+
+.header li:hover {
+  color: rgb(92, 28, 152);
+  font-weight: bolder;
+}
+
+.header-ul-li-div {
+  text-decoration: none;
+}
+
+.big-qoute {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #ffffddad;
+}
+
+.saying-nr-1 {
+  width: 60%;
+  padding: 30px;
+  margin: 40px;
+  margin-left: 120px;
+}
+
+.saying-nr-1 h1 {
+  text-align: left;
+}
+
+.saying-nr-1 h2 {
+  text-align: end;
+}
+
+.big-qoute-image {
+  margin-right: 100px;
+  margin-top: 3;
+  padding: 30px;
+}
+
+.big-qoute-image img {
+  width: 500px;
+  border-radius: 50% 20% / 10% 40%;
+}
+
+.recepies-intro {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.recepies-intro-image {
+  margin-left: 20%;
+}
+
+.recepies-intro-image img {
+  width: 400px;
+  margin: 60px;
+  border-radius: 78% 22% 70% 30% / 30% 71% 29% 70%;
+}
+
+.recepies-intro-text {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  width: 50%;
+  margin-left: 20%;
+  height: 80%;
+}
+
+.recepies-intro-text h1 {
+  text-align: justify;
+  margin-top: 60px;
+  font-family: cursive;
+}
+
+.recepies-intro-text p {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.recepies-intro-text button {
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  padding-bottom: 8px;
+  text-align: left;
+  background-color: #c3195d;
+  border: transparent;
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+}
+
+.motive {
+  background-color: #ffb5b5;
+  padding: 70px;
+}
+
+.motive h1 {
+  width: 60%;
+  text-align: center;
+  margin-left: 20%;
+  color: white;
+}
+
+.signin {
+  display: grid;
+  grid-template-rows: auto auto;
+  background-color: #9d4242;
+  padding: 70px;
+}
+
+.signin-text {
+  text-align: center;
+  color: white;
+}
+
+.signin-text h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.signin-text h4 {
+  font-size: 25px;
+}
+
+.signin-form {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 10px;
+  width: 25%;
+  margin-left: 38%;
+  margin-top: 10px;
+}
+
+.signin-form input {
+  padding: 5px;
+  height: 30px;
+}
+
+.signin-form button {
+  height: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  border: transparent;
+  border-radius: 20px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.term-of-use {
+  margin: 50px;
+  margin-left: 60%;
+}
+
+.term-of-use h3 {
+  padding-bottom: 10px;
+}
+
+.term-of-use ul {
+  list-style-type: none;
+}
+
+.term-of-use li {
+  padding: 5px;
+}
+
+.socilas {
+  display: grid;
+  grid-template-rows: auto auto;
+  height: 70px;
+  margin-top: 50px;
+
+}
+
+.socilas li {
+  display: inline;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.socilas img {
+  width: 30px;
+  height: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
