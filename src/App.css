@@ -308,12 +308,27 @@
 
 .text-recepie h3 {
   font-size: 33px;
+  padding: 5px;
+
+}
+
+.text-recepie h1 {
+  font-size: 40;
+}
+
+.text-recepie h2 {
+  font-size: 37px;
+  padding: 5px;
 }
 
 .text-recepie h4 {
-  font-size: 23px
+  font-size: 23px;
+  padding: 5px;
+
 }
 
 .text-recepie p {
+  text-align: justify;
+  padding: 5px;
   font-size: 18px;
 }

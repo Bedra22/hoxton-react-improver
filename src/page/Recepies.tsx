@@ -24,7 +24,7 @@ export function Recepies() {
                     <ul>
                         {recepies.map(OneRecipe => (
                             <li>
-                                <Link to={`/recepies/${OneRecipe.id}`}>
+                                <Link to={`/recepies/${OneRecipe.id}`} style={{ textDecoration: 'none' }}>
                                     <div className="one-recipe">
                                         <h1>{OneRecipe.name}</h1>
                                         <img src={OneRecipe.imageURL} />

@@ -9,6 +9,7 @@ import { Recepies } from './page/Recepies'
 import { Philosophy } from './page/Philosophy'
 import { Footer } from './components/Footer'
 import { EachRecipe } from './page/EachRecipe'
+import { EachCoctails } from './page/EacHCoctails'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,7 @@ function App() {
         <Route path='/recepies/:id' element={<EachRecipe />} />
         <Route path='/reviews' element={<Reviews />} />
         <Route path='/coctails' element={<Coctails />} />
+        <Route path='/coctails/:id' element={<EachCoctails />} />
         <Route path='/philosophy' element={<Philosophy />} />
       </Routes>
       <Footer />

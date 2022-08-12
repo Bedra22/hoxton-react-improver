@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { Link } from "react-router-dom"
 
 export function Coctails() {
     const [coctaile, setCoctaile] = useState([])
@@ -23,10 +24,12 @@ export function Coctails() {
                     <ul>
                         {coctaile.map(taile => (
                             <li>
-                                <div className="one-recipe">
-                                    <h1>{taile.name}</h1>
-                                    <img src={taile.image} />
-                                </div>
+                                <Link to={`/coctails/${taile.id}`} style={{ textDecoration: 'none' }}>
+                                    <div className="one-recipe">
+                                        <h1>{taile.name}</h1>
+                                        <img src={taile.image} />
+                                    </div>
+                                </Link>
                             </li>
                         ))}
                     </ul>
