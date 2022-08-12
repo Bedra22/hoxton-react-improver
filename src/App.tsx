@@ -26,7 +26,6 @@ function App() {
         <Route path='/reviews' element={<Reviews />} />
         <Route path='/coctails' element={<Coctails />} />
         <Route path='/coctails/:id' element={<EachCoctails />} />
-        <Route path='/philosophy' element={<Philosophy />} />
       </Routes>
       <Footer />
     </div >

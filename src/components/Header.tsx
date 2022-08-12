@@ -22,11 +22,6 @@ export function Header() {
                             COCKTAILS
                         </li>
                     </Link>
-                    <Link style={{ textDecoration: 'none' }} to='/philosophy'>
-                        <li>
-                            PHILOSOPHY
-                        </li>
-                    </Link>
                     <Link style={{ textDecoration: 'none' }} to='reviews'>
                         <li>
                             REVIEWS
