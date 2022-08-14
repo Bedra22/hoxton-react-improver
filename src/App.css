@@ -69,6 +69,36 @@
   border-radius: 50% 20% / 10% 40%;
 }
 
+.search-recepies {
+  margin-top: 30px;
+  margin-left: 30%;
+}
+
+.search-recepies input {
+  width: 550px;
+  height: 70px;
+  border: transparent;
+  margin-left: 30px;
+}
+
+.search-recepies button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: transparent;
+}
+
+.search-recepies button:hover {
+  background-color: rgba(169, 169, 169, 0.829);
+}
+
+.search-recepies-input-div {
+  border: #a584c196 solid 3px;
+  border-radius: 50px;
+  width: 660px;
+}
+
 .recepies-intro {
   display: grid;
   grid-template-columns: auto auto;
